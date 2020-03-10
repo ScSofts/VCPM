@@ -1,0 +1,16 @@
+{
+    "duilib":{
+        "type":"git clone",
+        "url":"https://gitee.com/gitnow/duilib.git",
+        "dep":[],
+        "build":["msbuild"],
+        "path":[]
+        },
+    "cef3":{
+        "type":"wget",
+        "url":"http://opensource.spotify.com/cefbuilds/cef_binary_80.0.7%2Bgd9fd476%2Bchromium-80.0.3987.132_windows32.tar.bz2",
+        "dep":"[cmake"],
+        "build":["cmake-gui"],
+        "path":[]
+    }
+}
