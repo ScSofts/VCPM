@@ -9,7 +9,7 @@
     "cef3":{
         "fetch":["wget"],
         "url":["http://opensource.spotify.com/cefbuilds/cef_binary_80.0.7%2Bgd9fd476%2Bchromium-80.0.3987.132_windows32.tar.bz2"],
-        "dep":"[cmake","7z"],
+        "dep":["cmake","7z"],
         "build":["cmake-gui"],
         "path":[]
         },
