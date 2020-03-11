@@ -42,7 +42,7 @@
         "path":[]
     },
     "libcurl":{
-        "fetch":["aria2c"],
+        "fetch":["aria2c -s 200"],
         "url":["https://curl.haxx.se/download/curl-7.69.0.zip"],
         "dep":["aria2c","7z"],
         "build":[],
