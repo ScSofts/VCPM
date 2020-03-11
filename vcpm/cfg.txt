@@ -1,0 +1,3 @@
+{
+  "site":["https://gitee.com/gitnow/VCPM/raw/master/packages.txt"]
+}
