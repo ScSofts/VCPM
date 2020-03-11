@@ -1,7 +1,7 @@
 {
     "duilib":{
         "fetch":["git clone"],
-        "url":"[https://gitee.com/gitnow/duilib.git"],
+        "url":["https://gitee.com/gitnow/duilib.git"],
         "dep":[],
         "build":["cd duilib","explorer duilib.sln"],
         "path":[]
