@@ -65,7 +65,7 @@
     "sdl2":{
         "fetch":["aria2c -s 200"],
         "url":["http://www.libsdl.org/release/SDL2-devel-2.0.12-VC.zip"],
-        "dep":["aria2c"]
+        "dep":["aria2c"],
         "build":[""],
         "path":[]
     }
