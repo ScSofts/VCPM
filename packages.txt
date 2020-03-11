@@ -70,9 +70,9 @@
         "path":[]
     },
     "easyx":{
-        "fetch":["wget"],
+        "fetch":["aria2c -s "],
         "url":["http://easyx.cn/Files/downloads/EasyX_20200109(beta).exe"],
-        "dep":[],
+        "dep":["aria2c"],
         "build":["explorer EasyX_20200109(beta).exe"],
         "path":[]
     }
