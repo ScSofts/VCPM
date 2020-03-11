@@ -75,5 +75,12 @@
         "dep":["aria2c"],
         "build":["explorer EasyX_20200109(beta).exe"],
         "path":[]
+    },
+    "bass":{
+        "fetch":["wget],
+        "url":["http://www.un4seen.com/files/bass24.zip"],
+        "dep":["7z"],
+        "build":[],
+        "path":[]
     }
 }
