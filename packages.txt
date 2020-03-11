@@ -68,5 +68,6 @@
         "dep":["aria2c"],
         "build":[""],
         "path":[]
-    }
+    },
+    "easyx":{}
 }
