@@ -29,16 +29,16 @@
     },
     "python3.7":{
         "fetch":["wget"],
-        "url":["http://u10.xainjo.com/pc/python372.zip"],
+        "url":["http://down1.downxia.com/down/python.rar"],
         "dep":[],
         "build":[],
         "path":[]
     },
     "python2.7":{
         "fetch":["wget"],
-        "url":["http://gd.dh978.com/python27_38175.zip?key=c73dc2139f493f5e8472c39623ec58a0"],
+        "url":["http://sqdownb.onlinedown.net/down/python2.7.6.rar"],
         "dep":[],
-        "build":[],
+        "build":["ren python"],
         "path":[]
     },
     "libcurl":{
