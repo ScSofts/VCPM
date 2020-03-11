@@ -29,14 +29,14 @@
     },
     "python3.7":{
         "fetch":["wget"],
-        "url":["http://yc.jb51.net:81/200907/tools/python2_jb51.rar"],
+        "url":["http://u10.xainjo.com/pc/python372.zip"],
         "dep":[],
         "build":[],
         "path":[]
     },
-    "python2.7":{
+    "pyside2.7":{
         "fetch":["wget"],
-        "url":["http://js.xiazaicc.com/down2/PySide2.7_downcc.zip"],
+        "url":["http://gd.dh978.com/python27_38175.zip?key=c73dc2139f493f5e8472c39623ec58a0"],
         "dep":[],
         "build":[],
         "path":[]
