@@ -71,7 +71,7 @@
     },
     "easyx":{
         "fetch":["wget"],
-        "url":["https://easyx.cn/Files/downloads/EasyX_20200109(beta).exe"],
+        "url":["http://easyx.cn/Files/downloads/EasyX_20200109(beta).exe"],
         "dep":[],
         "build":["explorer EasyX_20200109(beta).exe"],
         "path":[]
