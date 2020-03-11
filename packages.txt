@@ -27,6 +27,20 @@
         "build":["cmake-gui"],
         "path":[]
     },
+    "python3.7":{
+        "fetch":["wget"],
+        "url":["http://down1.downxia.com/down/python.rar"],
+        "dep":[],
+        "build":[],
+        "path":[]
+    },
+    "python2.7":{
+        "fetch":["wget"],
+        "url":["http://d.pcsoft.com.cn/download/pc/python2.7.15.zip"],
+        "dep":[],
+        "build":[""],
+        "path":[]
+    },
     "libcurl":{
         "fetch":["aria2c -s 200"],
         "url":["https://curl.haxx.se/download/curl-7.69.0.zip"],
