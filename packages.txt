@@ -66,8 +66,14 @@
         "fetch":["aria2c -s 200"],
         "url":["http://www.libsdl.org/release/SDL2-devel-2.0.12-VC.zip"],
         "dep":["aria2c"],
-        "build":[""],
+        "build":[],
         "path":[]
     },
-    "easyx":{}
+    "easyx":{
+        "fetch":["wget"],
+        "url":["https://easyx.cn/Files/downloads/EasyX_20200109(beta).exe"],
+        "dep":[],
+        "build":["explorer EasyX_20200109(beta).exe"],
+        "path":[]
+    }
 }
