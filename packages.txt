@@ -17,8 +17,8 @@
         "fetch":["explorer"],
         "url":["https://www.lanzous.com/ia4h9id"],
         "dep":[],
-        "build":[]
-        "path":["path","cmake\bin"]
+        "build":[],
+        "path":["path","cmake\\bin"]
     },
     "cef3-ffmpeg":{
         "fetch":["explorer"],
