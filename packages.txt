@@ -93,7 +93,7 @@
     "soui":{
         "fetch":["git clone"],
         "url":["https://gitee.com/setoutsoft/soui"],
-        "dep":[]
+        "dep":[],
         "build":["cd soui","Build.bat"],
         "path":[]
     }
