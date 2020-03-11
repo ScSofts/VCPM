@@ -9,7 +9,7 @@
     "cef3":{
         "fetch":["wget"],
         "url":["http://opensource.spotify.com/cefbuilds/cef_binary_80.0.7%2Bgd9fd476%2Bchromium-80.0.3987.132_windows32.tar.bz2"],
-        "dep":"[cmake"],
+        "dep":"[cmake","7z"],
         "build":["cmake-gui"],
         "path":[]
         },
@@ -23,7 +23,7 @@
     "cef3-ffmpeg":{
         "fetch":["explorer"],
         "url":["https://www.lanzous.com/b00kl2osb"],
-        "dep":"[cmake"],
+        "dep":"[cmake","7z"],
         "build":["cmake-gui"],
         "path":[]
     },
@@ -36,9 +36,30 @@
     },
     "python2.7":{
         "fetch":["wget"],
-        "url":"http://js.xiazaicc.com/down2/PySide2.7_downcc.zip",
+        "url":["http://js.xiazaicc.com/down2/PySide2.7_downcc.zip"],
         "dep":[],
         "build":[],
         "path":[]
+    },
+    "libcurl":{
+        "fetch":["aria2c"],
+        "url":["https://curl.haxx.se/download/curl-7.69.0.zip"],
+        "dep":["aria2c","7z"],
+        "build":[],
+        "path":[]
+    },
+    "aria2c":{
+        "fetch":["wget"],
+        "url":["http://8dx.pc6.com/wwb6/aria2135032bit.zip"],
+        "dep":["7z"],
+        "build":[],
+        "path":["path","aria2-1.35.0-win-32bit-build1"]
+    },
+    "7z":{
+        "fetch":["wget"],
+        "url":["http://sqdowna.onlinedown.net/down/7z1900.exe"],
+        "dep":[],
+        "build":["explorer 7z1900.exe"],
+        "path":["path","C:\\Program Files (x86)\\7-Zip\","path","C:\\Program Files\\7-Zip\\"]
     }
 }
