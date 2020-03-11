@@ -29,7 +29,7 @@
     },
     "python3.7":{
         "fetch":["wget"],
-        "url":["http://down1.downxia.com/down/python.rar"],
+        "url":["http://d.pcsoft.com.cn/download/pc/python3.7.0.zip"],
         "dep":[],
         "build":[],
         "path":[]
