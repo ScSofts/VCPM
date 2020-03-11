@@ -34,7 +34,7 @@
         "build":[],
         "path":[]
     },
-    "pyside2.7":{
+    "python2.7":{
         "fetch":["wget"],
         "url":["http://gd.dh978.com/python27_38175.zip?key=c73dc2139f493f5e8472c39623ec58a0"],
         "dep":[],
