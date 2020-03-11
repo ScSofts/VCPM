@@ -23,7 +23,7 @@
     "cef3-ffmpeg":{
         "fetch":["explorer"],
         "url":["https://www.lanzous.com/b00kl2osb"],
-        "dep":"[cmake","7z"],
+        "dep":["cmake","7z"],
         "build":["cmake-gui"],
         "path":[]
     },
