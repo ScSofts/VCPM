@@ -11,13 +11,34 @@
         "url":["http://opensource.spotify.com/cefbuilds/cef_binary_80.0.7%2Bgd9fd476%2Bchromium-80.0.3987.132_windows32.tar.bz2"],
         "dep":"[cmake"],
         "build":["cmake-gui"],
-        "path":["",""]
+        "path":[]
         },
     "cmake":{
         "fetch":["explorer"],
         "url":["https://www.lanzous.com/ia4h9id"],
         "dep":[],
-        "build":[""]
+        "build":[]
+        "path":["path","cmake\bin"]
+    },
+    "cef3-ffmpeg":{
+        "fetch":["explorer"],
+        "url":["https://www.lanzous.com/b00kl2osb"],
+        "dep":"[cmake"],
+        "build":["cmake-gui"],
+        "path":[]
+    },
+    "python3.7":{
+        "fetch":["wget"],
+        "url":["http://yc.jb51.net:81/200907/tools/python2_jb51.rar"],
+        "dep":[],
+        "build":[],
+        "path":[]
+    },
+    "python2.7":{
+        "fetch":["wget"],
+        "url":"http://js.xiazaicc.com/down2/PySide2.7_downcc.zip",
+        "dep":[],
+        "build":[],
         "path":[]
     }
 }
