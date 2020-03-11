@@ -77,7 +77,7 @@
         "path":[]
     },
     "bass":{
-        "fetch":["wget],
+        "fetch":["wget"],
         "url":["http://www.un4seen.com/files/bass24.zip"],
         "dep":["7z"],
         "build":[],
