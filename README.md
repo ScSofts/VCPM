@@ -12,5 +12,9 @@
 vcpm install [包名]
 vcpm remove [包名]
 ```
+##### 例子：
+```bash
+vcpm install duilib
+```
 暂未实现卸载功能
 ### 鸣谢：
