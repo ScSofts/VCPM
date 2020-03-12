@@ -7,4 +7,10 @@
 
 [点我下载](https://www.lanzous.com/ia5gsji)
 
+#### 用法
+```bash
+vcpm install [包名]
+vcpm remove [包名]
+```
+暂未实现卸载功能
 ### 鸣谢：
