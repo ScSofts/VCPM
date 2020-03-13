@@ -62,11 +62,11 @@
         "build":["explorer 7z1900.exe"],
         "path":["path","C:\\Program Files (x86)\\7-Zip\\","path","C:\\Program Files\\7-Zip\\"]
     },
-    "sdl2":{
-        "fetch":["aria2c -s 200"],
-        "url":["http://www.libsdl.org/release/SDL2-devel-2.0.12-VC.zip"],
-        "dep":["aria2c"],
-        "build":[],
+    "sdl":{
+        "fetch":["git clone"],
+        "url":["https://gitee.com/gitnow/SDL"],
+        "dep":[],
+        "build":["explorer SDL\VisualC\SDL.sln"],
         "path":[]
     },
     "easyx":{
