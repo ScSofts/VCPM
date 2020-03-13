@@ -37,18 +37,19 @@ def install_pkg_on(site_pkg,depth=0,pkg=sys.argv[2]):
  except:
   print("Package \"" + pkg + "\" not found!")
   return -1
- if pkg["dep"].__len__() > 0:
-  for i in pkg['dep']:
-   install_pkg_on(site_pkg,dep,i)
-   pass
   pass
  f = open(vcpm_path + r"vcpm\installed.txt","r")
  if pkg_name in f.read().split("\n"):
   print("Already installed " + pkg_name)
   f.close()
-  return 0;
+  return 0
   pass
-  f.close()
+ f.close()
+ if pkg["dep"].__len__() > 0:
+  for i in pkg['dep']:
+   install_pkg_on(site_pkg,dep,i)
+   pass
+  pass
  for j in range(0,pkg['fetch'].__len__()):
   os.system(pkg['fetch'][j]+' ' + pkg['url'][j])
   print("Prepare to build and then press enter to build...")
