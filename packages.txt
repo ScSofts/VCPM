@@ -96,5 +96,11 @@
         "dep":[],
         "build":["cd soui","Build.bat"],
         "path":[]
+    },"boost":{
+        "fetch":["git clone"],
+        "url": ["https://gitee.com/mirrors/boost.git"],
+        "dep":["cmake"],
+        "build":[],
+        "path":[]
     }
 }
