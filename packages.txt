@@ -102,5 +102,11 @@
         "dep":["cmake"],
         "build":[],
         "path":[]
+    },"nodejs":{
+        "fetch":["git clone"],
+        "url":["https://gitee.com/mirrors/nodejs.git"],
+        "dep":["python3.7"],
+        "build":["nodejs\\vcbuild x86 release openssl-no-asm"],
+        "path":[]
     }
 }
